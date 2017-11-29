@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Xcode 4.3">
+    <entity name="Annotation" representedClassName="Annotation" syncable="YES">
+        <attribute name="frame" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="originalViewSize" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" valueTransformerName="" syncable="YES"/>
+        <relationship name="inGraph" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Graph" inverseName="texts" inverseEntity="Graph" syncable="YES"/>
+    </entity>
+    <entity name="Dot" representedClassName="Dot" syncable="YES">
+        <attribute name="boundingRect" optional="YES" attributeType="Transformable" valueTransformerName="" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="Transformable" valueTransformerName="" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orginalViewSize" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="adjacent" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dot" inverseName="adjacent" inverseEntity="Dot" syncable="YES"/>
+        <relationship name="inGraph" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Graph" inverseName="dots" inverseEntity="Graph" syncable="YES"/>
+        <relationship name="lines" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Line" inverseName="endpoints" inverseEntity="Line" syncable="YES"/>
+    </entity>
+    <entity name="Graph" representedClassName="Graph" syncable="YES">
+        <attribute name="lastModified" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="originalViewSize" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="dots" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dot" inverseName="inGraph" inverseEntity="Dot" syncable="YES"/>
+        <relationship name="lines" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Line" inverseName="inGraph" inverseEntity="Line" syncable="YES"/>
+        <relationship name="texts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Annotation" inverseName="inGraph" inverseEntity="Annotation" syncable="YES"/>
+    </entity>
+    <entity name="Line" representedClassName="Line" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Transformable" valueTransformerName="" syncable="YES"/>
+        <attribute name="controlPoint" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="curved" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orginalViewSizeOfControlPoint" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="path" attributeType="Transformable" valueTransformerName="" syncable="YES"/>
+        <relationship name="endpoints" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Dot" inverseName="lines" inverseEntity="Dot" syncable="YES"/>
+        <relationship name="inGraph" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Graph" inverseName="lines" inverseEntity="Graph" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Annotation" positionX="126" positionY="99" width="128" height="105"/>
+        <element name="Dot" positionX="178" positionY="-288" width="128" height="150"/>
+        <element name="Graph" positionX="-117" positionY="-9" width="128" height="120"/>
+        <element name="Line" positionX="126" positionY="-36" width="128" height="165"/>
+    </elements>
+</model>

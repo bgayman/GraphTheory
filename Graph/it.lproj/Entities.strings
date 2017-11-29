@@ -1,0 +1,25 @@
+/* 
+  Entities.strings
+  Graph
+
+  Created by MacBook on 2/15/15.
+  Copyright (c) 2015 iMac. All rights reserved.
+*/
+
+"Graph" = "Grafo";
+"Graphs" = "Grafi";
+"Settings" = "Impostazioni";
+"Restore" = "Ripristinare";
+"Delete Graph" = "Elimina Grafo";
+"Graph Stats" = "Statistiche Grafo";
+"Calculator" = "Calcolatrice";
+"Share as PDF" = "PDF";
+"Cancel" = "Cancella";
+"Number of Vertices" = "Vertici";
+"Number of Edges" = "Spigoli";
+"Number of Spanning Trees" = "Alberi di Copertura";
+"Graph is Bipartite" = "Grafo Bipartito";
+"Kirchhoff's Matrix:" = "Matrice di Kirchhoff:";
+"Ad Free" = "Senza Pubblicità";
+"Text Text Text Text Text" = "";
+"Clear Clear Clear Clear" = "";

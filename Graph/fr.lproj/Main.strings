@@ -1,0 +1,69 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "1R9-A4-XjP"; */
+"1R9-A4-XjP.text" = "Title";
+
+/* Class = "IBUIButton"; normalTitle = "1"; ObjectID = "5PF-gG-0Sj"; */
+"5PF-gG-0Sj.normalTitle" = "1";
+
+/* Class = "IBUIButton"; normalTitle = "7"; ObjectID = "AgB-Xm-clY"; */
+"AgB-Xm-clY.normalTitle" = "7";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "BGW-nS-5Ma"; */
+"BGW-nS-5Ma.text" = "0";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "Gh8-Zv-Vaa"; */
+"Gh8-Zv-Vaa.text" = "Subtitle";
+
+/* Class = "IBUIButton"; normalTitle = "4"; ObjectID = "Ndx-UB-eme"; */
+"Ndx-UB-eme.normalTitle" = "4";
+
+/* Class = "IBUIButton"; normalTitle = "="; ObjectID = "Njt-ZL-rvQ"; */
+"Njt-ZL-rvQ.normalTitle" = "=";
+
+/* Class = "IBUIButton"; normalTitle = "9"; ObjectID = "Ofs-7x-3mg"; */
+"Ofs-7x-3mg.normalTitle" = "9";
+
+/* Class = "IBUIButton"; normalTitle = "÷"; ObjectID = "PCi-4n-kj0"; */
+"PCi-4n-kj0.normalTitle" = "÷";
+
+/* Class = "IBUIButton"; normalTitle = "3"; ObjectID = "S3r-Sb-6Ja"; */
+"S3r-Sb-6Ja.normalTitle" = "3";
+
+/* Class = "IBUIButton"; normalTitle = "−"; ObjectID = "Sbq-wk-pyl"; */
+"Sbq-wk-pyl.normalTitle" = "−";
+
+/* Class = "IBUIButton"; normalTitle = "0"; ObjectID = "Vqe-fq-erp"; */
+"Vqe-fq-erp.normalTitle" = "0";
+
+/* Class = "IBUIButton"; normalTitle = "6"; ObjectID = "WFX-d5-0cv"; */
+"WFX-d5-0cv.normalTitle" = "6";
+
+/* Class = "IBUIButton"; normalTitle = "2"; ObjectID = "XjO-af-Ol3"; */
+"XjO-af-Ol3.normalTitle" = "2";
+
+/* Class = "IBUIButton"; normalTitle = "!"; ObjectID = "YBE-xG-aR6"; */
+"YBE-xG-aR6.normalTitle" = "!";
+
+/* Class = "IBUIButton"; normalTitle = "8"; ObjectID = "bol-zJ-XAp"; */
+"bol-zJ-XAp.normalTitle" = "8";
+
+/* Class = "IBUIButton"; normalTitle = "×"; ObjectID = "db5-8A-L8P"; */
+"db5-8A-L8P.normalTitle" = "×";
+
+/* Class = "IBUIButton"; normalTitle = "AC"; ObjectID = "gTh-nm-U1f"; */
+"gTh-nm-U1f.normalTitle" = "AC";
+
+/* Class = "IBUIButton"; normalTitle = "nPr"; ObjectID = "okO-eZ-26m"; */
+"okO-eZ-26m.normalTitle" = "nPr";
+
+/* Class = "IBUIButton"; normalTitle = "5"; ObjectID = "q3u-yM-m79"; */
+"q3u-yM-m79.normalTitle" = "5";
+
+/* Class = "IBUIButton"; normalTitle = "."; ObjectID = "rH3-Ri-rsp"; */
+"rH3-Ri-rsp.normalTitle" = ".";
+
+/* Class = "IBUIButton"; normalTitle = "+"; ObjectID = "u1Y-Ek-9q7"; */
+"u1Y-Ek-9q7.normalTitle" = "+";
+
+/* Class = "IBUIButton"; normalTitle = "nCr"; ObjectID = "z1p-U9-fDl"; */
+"z1p-U9-fDl.normalTitle" = "nCr";

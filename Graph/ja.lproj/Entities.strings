@@ -1,0 +1,25 @@
+/* 
+  Entities.strings
+  Graph
+
+  Created by MacBook on 2/15/15.
+  Copyright (c) 2015 iMac. All rights reserved.
+*/
+
+"Graph" = "グラフ";
+"Graphs" = "グラフ";
+"Settings" = "の設定";
+"Restore" = "を復元";
+"Delete Graph" = "グラフを削除する";
+"Graph Stats" = "グラフ統計";
+"Calculator" = "電卓";
+"Share as PDF" = "PDF";
+"Cancel" = "キャンセル";
+"Number of Vertices" = "ノード";
+"Number of Edges" = "エッジ";
+"Number of Spanning Trees" = "スパニングツリー";
+"Graph is Bipartite" = "二部グラフ";
+"Kirchhoff's Matrix:" = "キルヒホッフのマトリックス：";
+"Ad Free" = "広告なし";
+"Text Text Text Text Text" = "";
+"Clear Clear Clear Clear" = "";
